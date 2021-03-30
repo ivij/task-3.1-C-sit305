@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">TASK 3.1 Credit</string>
+    <string name="textView1String">SIT305 Quiz App</string>
+    <string name="textView2String">Enter your name:</string>
+    <string name="nameString">name</string>
+    <string name="startButtonString">Start</string>
+    <string name="textView3String">Welcome</string>
+    <string name="textView4String">Topic: Question1</string>
+    <string name="textView5String">How to go from one activity to another?</string>
+    <string name="submitButtonString">Submit</string>
+    <string name="button3String">intent()</string>
+    <string name="button1String">toast()</string>
+    <string name="button2String">CheckBox</string>
+    <string name="nextButtonString">Next</string>
+    <string name="option1String">SIT305</string>
+    <string name="option2String">SIT307</string>
+    <string name="option3String">SIT216</string>
+    <string name="nextButton1">Next</string>
+    <string name="choice1String">Somaiyeh MahmoudZadeh</string>
+    <string name="choice2String">Dr Azadeh Ghari Neiat</string>
+    <string name="choice3String">Kevin Lee</string>
+    <string name="row3String">list</string>
+    <string name="row1String">drop down</string>
+    <string name="row2String">Spinner</string>
+    <string name="nextButton2String">Next</string>
+    <string name="nextButton3String">Next</string>
+    <string name="col1String">start()</string>
+    <string name="col2String">end()</string>
+    <string name="col3String">destroy()</string>
+    <string name="nextButton4String">Next</string>
+    <string name="textViewString">Name</string>
+    <string name="text1String">YOUR SCORE :</string>
+    <string name="scoreString">TextView</string>
+    <string name="newQuizString">Take New Quiz</string>
+    <string name="finishString">Finish</string>
+</resources>

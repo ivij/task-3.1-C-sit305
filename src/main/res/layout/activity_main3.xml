@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="232dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/textViewString"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="245dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text1String"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="229dp"
+        android:layout_height="92dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/scoreString"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text1" />
+
+    <Button
+        android:id="@+id/newQuiz"
+        android:layout_width="177dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:onClick="newQuizButton"
+        android:text="@string/newQuizString"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/score" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="177dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="50dp"
+        android:onClick="finishButton"
+        android:text="@string/finishString"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/newQuiz" />
+</androidx.constraintlayout.widget.ConstraintLayout>
